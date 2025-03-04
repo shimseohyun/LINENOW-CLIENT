@@ -1,7 +1,15 @@
 {
   "compilerOptions": {
+    "outDir": "./dist",
     "lib": ["es2017", "dom"],
     "jsx": "react-jsx",
-    "jsxImportSource": "@emotion/react"
+    "jsxImportSource": "@emotion/react",
+    "moduleResolution": "bundler",
+    "module": "es2015", // 'module'을 'es2015'로 설정
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "types": ["react", "node", "react-router-dom"] // react-router-dom 추가
   }
 }
