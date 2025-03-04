@@ -10,7 +10,7 @@ import FullSpinner from "@components/spinner/FullSpinner";
 import { LinenowProvider } from "@linenow/design-system";
 
 // Test
-import TestTool from "./mocks/_components/TestTool";
+// import TestTool from "./mocks/_components/TestTool";
 
 function App() {
   const queryClient = new QueryClient();
